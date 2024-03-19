@@ -1,0 +1,184 @@
+
+*{
+    margin: 25px;
+    display: block;
+    box-sizing:border-box;
+
+}
+
+.container{
+    display:flex;
+    margin-left: 0px;
+    column-gap: 20%;
+}
+.container1{
+    display: flex;
+    margin-right: 0px;
+    margin-left: 22%;
+    column-gap:40% ;
+}
+
+.bookmark{
+    margin-top: 0px;
+    margin-right: 0px;
+     float: right;   
+     width:100px;
+    height: 40px;
+    border: 40px solid transparent;
+    border-left:40px solid white ;
+    background:rgb(174, 129, 216);
+    border-radius: 20px 1px 1px 20px;
+}
+.bookmark1{
+margin-left: 0px;  
+border-left: 0px;
+  float: left;   
+     width:100px;
+        height: 40px;
+        border: 40px solid transparent;
+        border-right:40px solid white ;
+        background:rgb(174, 129, 216);
+        border-radius: 1px 1px 1px 1px;
+    }
+    .bookmark2{
+        display: flex;
+        margin-right: 0px;  
+        border-right: 0px;
+        float:right;   
+           width:100px;
+              height: 40px;
+              border: 40px solid transparent;
+              border-left:40px solid white ;
+              background:rgb(174, 129, 216);
+              border-radius: 1px 1px 1px 1px;
+    }
+    .bookmark3{
+        margin-left: 0px;  
+        border-left: 0px;
+         float: left;   
+     width:100px;
+        height: 40px;
+        border-bottom:0px ;
+        border: 40px solid transparent;
+        border-right:40px solid white ;
+        background:rgb(174, 129, 216);
+        border-radius: 1px 1px 1px 1px;
+    }
+    .h{
+     background:rgb(174, 129, 216);
+     border-radius:90px ;
+     width: max-content;
+     padding:10px ;
+     margin-left: 35%;
+
+    }
+    h1{
+        text-align: center;
+    }
+    .leader{
+        background:rgb(174, 129, 216);
+        width: max-content;
+        border-radius:90px ;
+        padding:10px ;
+        margin-left: 35%;
+
+    }
+
+    h2{
+        text-align: center;
+    }
+   
+    .header2{
+        flex-wrap: wrap;
+        padding: 0px;
+        background:rgb(174, 129, 216);
+      text-align: center;
+        border-radius: 20px;
+    }
+    .header3{
+        padding: 10px;
+        border-radius: 20px;
+        flex-wrap: wrap;
+        display: inline-block;
+        text-align: center;
+        background:rgb(174, 129, 216);
+    }
+    .header4{
+        padding: 10px;
+        border-radius: 20px;
+        flex-wrap: wrap;
+        display: inline-block;
+        text-align: center;
+        background:rgb(174, 129, 216);
+  }
+    
+   
+body {  
+ border: 1px solid black;
+font-family: Arial, sans-serif;
+background-color:white;
+}
+p1
+{
+    text-align: center;
+}
+p2{
+    text-align: center;
+    color:rgb(174, 129, 216);
+height:4px ;}
+
+.header1{
+    text-align: center;
+ display:inline-block;
+    margin-top: 100px;
+}
+
+
+
+.team-leader{
+    display:inline;
+        flex-wrap: wrap;
+        column-gap:2px ;
+}
+.member {
+    
+    display:inline-block;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 5px;
+    text-align: center;
+    width: 250px;
+    margin:15px ;
+}
+
+.member img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 0px;
+}
+/* Media queries for responsiveness */
+
+/* For mobile devices */
+@media only screen and (max-width: 600px) {
+    body {
+background-color: #fff;    }
+   
+}
+
+/* For tablet devices */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    body {
+        background-color: #fff;    }
+}
+
+/* For laptop devices */
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    body {
+        background-color: #fff;    }
+}
+
+
+
+
+
+
